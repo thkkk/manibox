@@ -1,0 +1,48 @@
+**/ckpt*
+runs/
+
+# data
+data/
+**/*.hdf5
+**/*.npy
+**/*.pt
+**/*.jpg
+**/*.png
+**/*.ckpt
+**/*.pkl
+**/*.mp4
+**/*.pdf
+
+# C++
+**/cmake-build*/
+**/build*/
+**/*.so
+**/*.log*
+
+# Python
+.DS_Store
+**/*.egg-info/
+**/__pycache__/
+**/.pytest_cache/
+**/*.pyc
+**/*.pb
+
+# Docker/Singularity
+**/*.sif
+docker/exports/
+
+# IDE
+**/.idea/
+**/.vscode/
+# Don't ignore the top-level .vscode directory as it is
+# used to configure VS Code settings
+!.vscode
+
+# Outputs
+**/output/*
+**/outputs/*
+**/videos/*
+**/wandb/*
+**/.neptune/*
+docker/artifacts/
+*.tmp
