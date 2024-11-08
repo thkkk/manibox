@@ -43,13 +43,10 @@ python VFCNet/inference_real_world.py  --ckpt_dir /PATH/TO/ManiBox/ckpt/2024-xx-
 If you find our work useful for your project, please consider citing the following paper.
 
 ```
-@misc{tan2024maniboxenhancingspatialgrasping,
-      title={ManiBox: Enhancing Spatial Grasping Generalization via Scalable Simulation Data Generation}, 
-      author={Hengkai Tan and Xuezhou Xu and Chengyang Ying and Xinyi Mao and Songming Liu and Xingxing Zhang and Hang Su and Jun Zhu},
-      year={2024},
-      eprint={2411.01850},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2411.01850}, 
+@article{tan2024manibox,
+  title={ManiBox: Enhancing Spatial Grasping Generalization via Scalable Simulation Data Generation},
+  author={Tan, Hengkai and Xu, Xuezhou and Ying, Chengyang and Mao, Xinyi and Liu, Songming and Zhang, Xingxing and Su, Hang and Zhu, Jun},
+  journal={arXiv preprint arXiv:2411.01850},
+  year={2024}
 }
 ```
