@@ -31,7 +31,7 @@ python ManiBox/train.py --policy_class RNN --batch_size 128 --dataset ../ --num_
 ## Deployment Instructions
 
 ```bash
-python VFCNet/inference_real_world.py  --ckpt_dir /PATH/TO/ManiBox/ckpt/2024-xx-xx_xx-xx-xxRNN --policy_class RNN --ckpt_name policy_best.ckpt
+python ManiBox/inference_real_world.py  --ckpt_dir /PATH/TO/ManiBox/ckpt/2024-xx-xx_xx-xx-xxRNN --policy_class RNN --ckpt_name policy_best.ckpt
 ```
 
 ## Acknowledgement

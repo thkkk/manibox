@@ -32,8 +32,8 @@ import threading
 from PIL import Image, ImageDraw, ImageFont
 # from 
 
-from VFCNet.yolo_process_data import YoloProcessDataByTimeStep, plot_xyxyn_boxes_to_image
-from VFCNet.train import make_policy  # , set_model_config
+from ManiBox.yolo_process_data import YoloProcessDataByTimeStep, plot_xyxyn_boxes_to_image
+from ManiBox.train import make_policy  # , set_model_config
 
 
 import sys
