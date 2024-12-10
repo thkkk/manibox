@@ -14,7 +14,8 @@ install_requires = [
     'transformers==4.40.1',
     'pdbpp',
     'lap==0.4.0',
-    'ultralytics',    
+    'ultralytics',  
+    'numpy==1.22.4',
     'clip @ git+https://github.com/openai/CLIP',
 ]
 
