@@ -2,11 +2,9 @@
 
 - [Paper](https://arxiv.org/pdf/2411.01850)
 - [Project Page](https://thkkk.github.io/manibox)
-- Other Contributors: [Xuezhou Xu](https://github.com/xuxuezhou), [Chengyang Ying](https://github.com/yingchengyang), [Xinyi Mao](https://github.com/shhmxy2)
+- Contributors: [Hengkai Tan](https://github.com/thkkk), [Xuezhou Xu](https://github.com/xuxuezhou), [Chengyang Ying](https://github.com/yingchengyang), [Xinyi Mao](https://github.com/shhmxy2)
 
-The code will be updated within a week. TODO:
-- more policies
-- data generation in simulator
+**The code of the simulator part** (including teacher policy and data generation) could be seen in **[sim branch](https://github.com/thkkk/manibox/tree/sim)**.
 
 ## Installation Instructions
 
@@ -42,8 +40,6 @@ python ManiBox/inference_real_world.py  --ckpt_dir /PATH/TO/ManiBox/ckpt/2024-xx
 ```
 
 ## Other Instructions
-
-TODO...
 
 ### Teacher Policy Training Instructions
 ```bash
