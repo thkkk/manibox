@@ -1,8 +1,9 @@
 # ManiBox: Enhancing Spatial Grasping Generalization via Scalable Simulation Data Generation
 
-- [Paper](https://arxiv.org/pdf/2411.01850)
-- [Project Page](https://thkkk.github.io/manibox)
-- Contributors: [Hengkai Tan](https://github.com/thkkk), [Xuezhou Xu](https://github.com/xuxuezhou), [Chengyang Ying](https://github.com/yingchengyang), [Xinyi Mao](https://github.com/shhmxy2)
+- 📝[Paper](https://arxiv.org/pdf/2411.01850)
+- 🌍[Project Page](https://thkkk.github.io/manibox)
+- 🛢️[Dataset](https://ml.cs.tsinghua.edu.cn/~hengkai/20240923_41_30_28_integration_38150.pkl)
+- 👏Contributors: [Hengkai Tan](https://github.com/thkkk), [Xuezhou Xu](https://github.com/xuxuezhou), [Chengyang Ying](https://github.com/yingchengyang), [Xinyi Mao](https://github.com/shhmxy2)
 
 **The code of the simulator part** (including teacher policy and data generation) could be seen in **[sim branch](https://github.com/thkkk/manibox/tree/sim)**.
 
@@ -21,7 +22,7 @@ pip install einops
 
 ## Dataset
 
-The full space version dataset is in [Download link](https://ml.cs.tsinghua.edu.cn/~hengkai/20240923_41_30_28_integration_38150.pkl). It has a total of 38,150 trajectories, which you should rename to integration.pkl in any directory.
+The full space version dataset is in 🛢️[Download link](https://ml.cs.tsinghua.edu.cn/~hengkai/20240923_41_30_28_integration_38150.pkl). It has a total of 38,150 trajectories, which you should rename to integration.pkl in any directory.
 
 ## Student Training Instructions
 
