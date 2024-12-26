@@ -1,7 +1,7 @@
 # ManiBox: Enhancing Spatial Grasping Generalization via Scalable Simulation Data Generation
 
 - 📝[Paper](https://arxiv.org/pdf/2411.01850)
-- 🌍[Project Page](https://thkkk.github.io/manibox)
+- 🌍[Project Page](https://thkkk.github.io/manibox): **Spatial Generalization** and its Scaling Laws~
 - 🛢️[Dataset](https://ml.cs.tsinghua.edu.cn/~hengkai/20240923_41_30_28_integration_38150.pkl)
 - 👏Contributors: [Hengkai Tan](https://github.com/thkkk), [Xuezhou Xu](https://github.com/xuxuezhou), [Chengyang Ying](https://github.com/yingchengyang), [Xinyi Mao](https://github.com/shhmxy2)
 
