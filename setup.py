@@ -14,19 +14,18 @@ install_requires = [
     'transformers==4.40.1',
     'pdbpp',
     'lap==0.4.0',
-    'ultralytics',  
-    'numpy==1.22.4',
+    'ultralytics',    
     'clip @ git+https://github.com/openai/CLIP',
 ]
 
 setup(
-    name='ManiBox',
+    name='VFCNet',
     version='1.0.0',
-    author=' ',
+    author='Hengkai Tan',
     license="Apache 2.0 License",
     packages=find_packages(),
-    author_email=' ',
-    description=' ',
+    author_email='thj23@mails.tsinghua.edu.cn',
+    description='Vision Fourier Controller Networks',
     install_requires=install_requires,
     # dependency_links=[
     #     'git+https://github.com/openai/CLIP.git#egg=clip'

@@ -1,0 +1,1 @@
+from .omnigibson_object_cfg import OmniGibsonObjectCfg
