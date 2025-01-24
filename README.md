@@ -1,5 +1,12 @@
 # ManiBox
 
+**Note**: The sim branch is developed based on Isaac lab, which is equivalent to another version of Isaac lab. Since the sim branch depends on `yolo_process_data`` in manibox, you should not switch the manibox repository to the sim branch directly, but **clone the sim branch to another folder and install the sim code separately**.
+So in total there will be two conda environments:
+- **Student policy environment**: containing the main branch of manibox repo (ManiBox package), used for student policy training and real robot deployment.
+- **Simulator environment**: the sim branch of manibox repo (Isaac Lab replacement) with manibox main branch. It is used for reinforcement learning and simulator data generation.
+
+The usd and urdf files required for the sim branch are shown in: [manibox-sim-usd-urdf.zip](manibox-sim-usd-urdf.zip).
+
 ## Installation
 ```bash
 conda activate isaaclab
