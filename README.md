@@ -13,6 +13,16 @@ python source/standalone/workflows/rsl_rl/play.py --task Isaac-Lift-Cube-MobileA
 ```
 ⚠️**If you fail to train your RL policy, you can consider training a small range of grasping first, and then continue RL training to expand to a larger range after stabilization of small-range policy.**
 
+Installation version for reference: 
+```bash
+$ pip list | grep isaac
+omni-isaac-lab           0.24.13
+omni-isaac-lab_assets    0.1.4
+omni-isaac-lab_tasks     0.10.5
+
+Isaac sim version: 4.2.0
+```
+
 
 ## Installation
 ```bash
