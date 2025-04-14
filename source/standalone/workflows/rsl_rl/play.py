@@ -62,7 +62,7 @@ def main():
     
     # Async collect data and process it by yolo
     # if args_cli.task == "Isaac-Lift-Cube-MobileAloha-Play-v0":
-    #     from VFCNet.yolo_process_data import AsyncYoloProcessDataFromHDF5
+    #     from manibox.ManiBox.yolo_process_data import AsyncYoloProcessDataFromHDF5
     #     num_envs = args_cli.num_envs
     #     processor = AsyncYoloProcessDataFromHDF5(num_envs, CollectEpsBuf.dataset_path)
     #     process_thread = threading.Thread(target=processor.run)

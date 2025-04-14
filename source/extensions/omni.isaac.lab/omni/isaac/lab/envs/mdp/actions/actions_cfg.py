@@ -261,6 +261,6 @@ class DifferentialInverseKinematicsActionCfg(ActionTermCfg):
 
 @configclass
 class DifferentialInverseKinematicsWorldActionCfg(DifferentialInverseKinematicsActionCfg):
-    class_type: type[ActionTerm] = task_space_actions.DifferentialInverseKinematicsWorldAction
+    class_type: type[ActionTerm] = task_space_actions.DifferentialInverseKinematicsAction
 
     arm_root_body_name: str = MISSING

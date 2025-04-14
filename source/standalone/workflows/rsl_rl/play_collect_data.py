@@ -52,7 +52,7 @@ from omni.isaac.lab_tasks.utils.wrappers.rsl_rl import (
 from omni.isaac.lab_tasks.manager_based.manipulation.lift import CollectEpsBuf
 import threading
 
-from VFCNet.yolo_process_data import YoloCollectData
+from manibox.ManiBox.yolo_process_data import YoloCollectData
 from omni.isaac.lab.envs import ManagerBasedRLEnv
 from omni.isaac.lab_tasks.utils.data_collector.cobot_data_collect import project_to_rotation, push_tensor_obs_action_to_buf, \
     transfer_sim_image_to_standard_img_tensor, save_data

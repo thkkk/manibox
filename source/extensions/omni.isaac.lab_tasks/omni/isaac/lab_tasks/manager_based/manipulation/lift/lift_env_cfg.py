@@ -97,7 +97,8 @@ class ObjectTableSceneCfg(LiftSceneCfg):
         prim_path="{ENV_REGEX_NS}/Object",
         init_state=RandomRigidObjectCfg.InitialStateCfg(),
         spawn=RandomUsdFileCfg(
-            usd_paths=[os.path.expanduser("~/og_dataset/og_objects/apple/agveuv/usd/green_apple.usd")],
+            # usd_paths=[os.path.expanduser("~/og_dataset/og_objects/apple/agveuv/usd/green_apple.usd")],
+            usd_paths=[os.path.expanduser("~/manibox_dataset/Assets/Isaac/4.2/NVIDIA/Assets/ArchVis/Residential/Food/Fruit/green_apple.usd")],
             scale_mode="uniform",
             visual_material_paths=["materials"],
             # scales=((0.75,0.85), (0.75,0.85), (0.85,0.95)),
@@ -137,7 +138,8 @@ class ObjectTableSceneCfg(LiftSceneCfg):
             # usd_path=os.path.expanduser("~/og_dataset/og_objects/tablecloth/sgmepr/usd/sgmepr.usd"), # 白色方长桌布
             # usd_path=os.path.expanduser("~/og_dataset/og_objects/tablecloth/shgmwu/usd/shgmwu.usd"), # 白色方短桌布
             # usd_path=os.path.expanduser("~/og_dataset/og_objects/tablecloth/shgmwu/usd/orange_tablecloth.usd"), # 橙色方短桌布
-            usd_path=os.path.expanduser("~/og_dataset/og_objects/tablecloth/shgmwu/usd/orange_tablecloth_without_ref_tem.usd"), # 无反光橙色方短桌布
+            # usd_path=os.path.expanduser("~/og_dataset/og_objects/tablecloth/shgmwu/usd/orange_tablecloth_without_ref_tem.usd"), # 无反光橙色方短桌布
+            usd_path=os.path.expanduser("~/manibox_dataset/assets_3/Assets/Isaac/4.2/NVIDIA/Assets/ArchVis/Residential/Decor/TableCloth/orange_tablecloth_without_ref_tem.usd"), # 无反光橙色方短桌布
             scale=(0.96, 0.53, 0.7), # (y, x, z)
             rigid_props=RigidBodyPropertiesCfg(
                 disable_gravity=True,

@@ -25,13 +25,29 @@ Isaac sim version: 4.2.0
 
 
 ## Installation
+To set up the environment, follow the [official Isaac Lab installation guide](https://docs.isaacsim.omniverse.nvidia.com/latest/installation/download.html).
+
+Then activate the environment and install required Python dependencies:
+
 ```bash
 conda activate isaaclab
+
 pip install dm_env
 pip install einops
 pip install -e .
 
+cd rsl_rl
+pip install -e .
 ```
+
+## Assets Setup
+To set up the necessary assets for ManiBox, simply run:
+
+```bash
+./setup_assets.sh
+```
+If you wish to use custom assets, you can download the official asset packages from the [Isaac Sim Asset Downloads](https://docs.isaacsim.omniverse.nvidia.com/latest/installation/download.html).
+Then, comment out the first five lines of setup_assets.sh and re-run the script.
 
 ## Code Position
 ```bash

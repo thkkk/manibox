@@ -23,7 +23,8 @@ import os
 # ARX5USDPath = os.path.expanduser(f"~/GES_robots/mobile_aloha/arx5_description.usd")
 # ARX5USDPath = os.path.expanduser(f"~/GES_robots/mobile_aloha/arx5_description_only_fl.usd")
 # ARX5USDPath = os.path.expanduser(f"~/GES_robots/mobile_aloha/Links_all_Joints_fl.usd")
-ARX5USDPath = os.path.expanduser(f"~/GES_robots/mobile_aloha/Links_allFront_Joints_fl.usd")  
+# ARX5USDPath = os.path.expanduser(f"~/GES_robots/mobile_aloha/Links_allFront_Joints_fl.usd")  
+ARX5USDPath = os.path.expanduser(f"~/manibox_dataset/assets_2/Assets/Isaac/4.2/Isaac/Robots/MobileAloha/Links_allFront_Joints_fl.usd")  
 
 # left teleoperation arms
 TELEOP_LEFT_ARM_JOINT_NAMES = [

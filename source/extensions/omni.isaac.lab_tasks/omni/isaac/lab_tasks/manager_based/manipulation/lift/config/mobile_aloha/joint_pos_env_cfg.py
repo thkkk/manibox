@@ -16,7 +16,7 @@ from omni.isaac.lab.utils.assets import ISAAC_NUCLEUS_DIR
 from omni.isaac.lab_tasks.manager_based.manipulation.lift import mdp, x_scene_object_offset, y_scene_object_offset, \
     object_pos, ee_offset, object_quat, table_pos, rigid_asset_names, object_history_length, ObjectHisPosBuf, \
     object_torsional_patch_radius, LiftTgtObjects, CollectEpsBuf
-from VFCNet.yolo_process_data import YoloCollectData
+from manibox.ManiBox.yolo_process_data import YoloCollectData
 from omni.isaac.lab_tasks.manager_based.manipulation.lift.lift_env_cfg import LiftEnvCfg, ActionsCfg, EventCfg
 from omni.isaac.lab.assets import ArticulationCfg, AssetBaseCfg, RigidObjectCfg
 from omni.isaac.lab.envs.mdp.actions.actions_cfg import JointPositionActionCfg, SyncedJointPositionActionCfg
@@ -268,7 +268,8 @@ class MobileAlohaCubeLiftEnvCfg(LiftEnvCfg):
                     pos=(-0.75, 0.0, 0.0)
                 ),
                 spawn=UsdFileCfg(
-                    usd_path=os.path.expanduser("~/og_dataset/og_scenes/Beechwood_0_int/usd/CubeRoom.usda"),
+                    # usd_path=os.path.expanduser("~/og_dataset/og_scenes/Beechwood_0_int/usd/CubeRoom.usda"),
+                    usd_path=os.path.expanduser("~/manibox_dataset/assets_1/Assets/Isaac/4.2/Isaac/Environments/Simple_Room/CubeRoom.usda"),
                     scale=(0.7, 0.7, 1.0),
                 )
             )

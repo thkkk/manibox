@@ -46,3 +46,6 @@ docker/exports/
 **/.neptune/*
 docker/artifacts/
 *.tmp
+
+_isaac_sim
+logs/

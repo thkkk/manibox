@@ -22,7 +22,7 @@ from omni.isaac.lab.assets import Articulation, RigidObject
 from omni.isaac.lab.managers import SceneEntityCfg
 from omni.isaac.lab.utils.math import quat_from_euler_xyz, sample_uniform
 from omni.isaac.lab_tasks.manager_based.manipulation.lift import DEFAULT_QPOS_7DIM, CollectEpsBuf, HisQposBuf
-from VFCNet.yolo_process_data import YoloCollectData
+from manibox.ManiBox.yolo_process_data import YoloCollectData
 # import source/extensions/omni.isaac.lab_tasks/omni/isaac/orbit_tasks/utils
 from omni.isaac.lab_tasks.utils.data_collector.cobot_data_collect import save_data, push_tensor_obs_action_to_buf, \
     save_data_v4

@@ -5,7 +5,7 @@ import os
 import torch
 import numpy as np
 from omni.isaac.lab_tasks.manager_based.manipulation.lift import ObjectHisPosBuf, CollectEpsBuf
-from VFCNet.yolo_process_data import YoloCollectData, plot_xyxyn_boxes_to_image
+from manibox.ManiBox.yolo_process_data import YoloCollectData, plot_xyxyn_boxes_to_image
 import dm_env
 from omni.isaac.lab_tasks.utils.data_collector.compress_data import compress_single_hdf5
 import cv2
@@ -62,7 +62,7 @@ def transfer_sim_image_to_standard_img_tensor(img):
         return img[:, :, :3].permute(2, 0, 1).float() / 255.0
 
 
-from VFCNet.yolo_process_data import YoloProcessDataByTimeStep
+from manibox.ManiBox.yolo_process_data import YoloProcessDataByTimeStep
 
 def push_tensor_obs_action_to_buf(obs_tensor, cam_high, cam_left_wrist, cam_right_wrist, reward, env_id, info:dict=None, bboxes=None):
     """Convert obs tensor from single env to the unified data form. And save it.

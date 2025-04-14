@@ -26,7 +26,7 @@ if TYPE_CHECKING:
     from omni.isaac.lab.envs import ManagerBasedRLEnv
     from omni.isaac.lab.managers.command_manager import CommandTerm
 
-from VFCNet.yolo_process_data import YoloCollectData
+from manibox.ManiBox.yolo_process_data import YoloCollectData
 
 import dm_env
 
